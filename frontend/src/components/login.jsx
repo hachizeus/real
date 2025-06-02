@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { FaEye, FaEyeSlash } from "../utils/eye-icons";
 import { motion } from "framer-motion";
 import { Loader } from "lucide-react";
 import { Backendurl } from "../App";
